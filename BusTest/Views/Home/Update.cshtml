@@ -1,0 +1,16 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model BusTest.Dto.UrlDto
+
+<form method="post" asp-action="Update" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="LongUrl">LongUrl</label>
+        <input asp-for="LongUrl" class="form-control" placeholder="Title">
+        <span asp-validation-for="LongUrl" class="text-danger"></span>
+    </div>
+    <input asp-for="Token" hidden="hidden" class="form-control" />
+    <input asp-for="ShortUrl" hidden="hidden" class="form-control" />
+    <input asp-for="CreatedAt" hidden="hidden" class="form-control" />
+    <input asp-for="ActivationCount" hidden="hidden" class="form-control" />
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
