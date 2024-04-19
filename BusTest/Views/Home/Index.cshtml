@@ -35,7 +35,7 @@
                                 @Html.DisplayFor(model => item.LongUrl)
                             </td>
                             <td>
-                                @Html.DisplayFor(model => item.ShortUrl)
+                                <a href="@item.ShortUrl">@item.ShortUrl</a>
                             </td>
                             <td>
                                 @Html.DisplayFor(model => item.CreatedAt)

@@ -125,3 +125,4 @@ C:\Users\User\RiderProjects\BusTest\BusTest\obj\Debug\net8.0\refint\BusTest.dll
 C:\Users\User\RiderProjects\BusTest\BusTest\obj\Debug\net8.0\BusTest.pdb
 C:\Users\User\RiderProjects\BusTest\BusTest\obj\Debug\net8.0\BusTest.genruntimeconfig.cache
 C:\Users\User\RiderProjects\BusTest\BusTest\obj\Debug\net8.0\ref\BusTest.dll
+C:\Users\User\RiderProjects\BusTest\BusTest\obj\Debug\net8.0\BusTest.sourcelink.json
